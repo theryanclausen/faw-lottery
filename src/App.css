@@ -1,0 +1,22 @@
+body {
+  background-color: #af8cf8;
+  margin: 0;
+}
+.App {
+  height: 100vh;
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.confetti {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  z-index: -1;
+}
